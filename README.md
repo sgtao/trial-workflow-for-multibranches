@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+# trial-workflow-for-multibranches
+## 概要
+- 複数のブランチから選択してデプロイするワークフローを試したい
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### 詳細
+- 手動デプロイで、複数あるブランチから選択してデプロイするworkflowを試作したい
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### 参考
+- refer GitHub: [ワークフローの手動実行](https://docs.github.com/ja/enterprise-server@3.8/actions/using-workflows/manually-running-a-workflow)
+- refer GitHub: [Azure App Service に Docker をデプロイする](https://docs.github.com/ja/enterprise-server@3.8/actions/deployment/deploying-to-your-cloud-provider/deploying-to-azure/deploying-docker-to-azure-app-service)
+- refer Vite: [静的サイトのデプロイ](https://ja.vitejs.dev/guide/static-deploy.html)
